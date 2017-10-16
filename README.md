@@ -1,1 +1,1 @@
-# Projects under Komhar
+# Projects under Komhar for winter internship
