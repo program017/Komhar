@@ -10,23 +10,23 @@ contract Greeter         // The contract definition. A constructor of the same n
         greeting = _greeting;
     }
 
-    function greet() constant returns (string)          
+    function greet() constant returns (string) public        
     {
         return greeting;
     }
     
-    function getBlockNumber() constant returns (uint) // this doesn't have anything to do with the act of greeting
+    function getBlockNumber() public constant returns (uint) // this doesn't have anything to do with the act of greeting
     {													// just demonstrating return of some global variable
         return block.number;
     }
     
-    function setGreeting(string _newgreeting) 
+    function setGreeting(string _newgreeting) public
     {
         greeting = _newgreeting;
     }
     
      /**********
-     Standard kill() function to recover funds 
+     Standard kill() public function to recover funds 
      **********/
     
     function kill()
