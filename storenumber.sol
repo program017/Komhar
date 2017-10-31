@@ -1,6 +1,6 @@
 pragma solidity ^0.4.2;
 
-contract storenumber{
+contract exp{
     uint number;
     function storenumber() public{
         number=100;
@@ -18,7 +18,7 @@ contract storenumber{
         return number;
     }
     
-    function setnumber(uint thenewvalue) public{
-        number=thenewvalue;
+    function setno(uint newvalue) public{
+        number=newvalue;
     }
 }
